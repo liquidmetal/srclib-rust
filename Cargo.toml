@@ -1,0 +1,20 @@
+[package]
+name = "srclib-rust"
+version = "0.0.1"
+authors = ["Jakub <jakub@jakub.cc>"]
+
+[[bin]]
+name = "scan"
+path = "src/scan.rs"
+
+[dependencies.cargo]
+git = "https://github.com/rust-lang/cargo"
+
+[dependencies.docopt]
+git = "https://github.com/docopt/docopt.rs"
+
+[dependencies.docopt_macros]
+git = "https://github.com/docopt/docopt.rs"
+
+[dependencies.url]
+git = "https://github.com/servo/rust-url"
